@@ -93,7 +93,7 @@ function compileTypes() {
                 shell.cp(path.resolve(locationOfTypes, 'themes', file, nestedFile), path.resolve(locationOfLib, 'themes', file, nestedFile))
             })
 
-            if (file === 'eui-amsterdam') {
+            if (file === 'tensei') {
                 // copy global styling variables
                 const globalStylesFiles = fs.readdirSync(path.resolve(locationOfTypes, 'themes', file, 'global_styling/variables'))
                 

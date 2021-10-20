@@ -1,0 +1,31 @@
+// This extra import allows any variables that are created via functions to work when loaded into JS
+@import '../../global_styling/variables/colors';
+
+// Core
+$euiColorPrimary: #2346F8;
+$euiColorSecondary: #008539;
+$euiColorAccent: #F04E98;
+
+// Status
+$euiColorSuccess: $euiColorSecondary;
+$euiColorWarning: #F07F23;
+$euiColorDisabled: #ABB4C4;
+$euiColorDanger: #D41B44;
+// Grays are the same
+
+// Backgrounds
+$euiPageBackgroundColor: tint($euiColorLightestShade, 50%);
+$euiColorHighlight: tint($euiColorWarning, 90%);
+
+// Border radius
+$euiBorderRadius: 4px !default;
+
+// Contrasty text variants
+$euiTextSubduedColor: $euiColorDarkShade;
+$euiColorPrimaryText: makeHighContrastColor($euiColorPrimary);
+$euiColorSecondaryText: makeHighContrastColor($euiColorSecondary);
+$euiColorAccentText: makeHighContrastColor($euiColorAccent);
+$euiColorWarningText: makeHighContrastColor($euiColorWarning);
+$euiColorDisabledText: makeDisabledContrastColor($euiColorDisabled);
+$euiColorSuccessText: $euiColorSecondaryText;
+$euiLinkColor: $euiColorPrimaryText;

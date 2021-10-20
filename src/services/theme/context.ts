@@ -13,14 +13,14 @@ import {
   EuiThemeModifications,
   EuiThemeComputed,
 } from './types';
-import { EuiThemeDefault } from '../../themes/eui/theme';
+import { EuiThemeTensei } from '../../themes/tensei/theme';
 import { DEFAULT_COLOR_MODE, getComputed } from './utils';
 
-export const EuiSystemContext = createContext<EuiThemeSystem>(EuiThemeDefault);
+export const EuiSystemContext = createContext<EuiThemeSystem>(EuiThemeTensei);
 export const EuiModificationsContext = createContext<EuiThemeModifications>({});
 export const EuiColorModeContext = createContext<EuiThemeColorMode>(
   DEFAULT_COLOR_MODE
 );
 export const EuiThemeContext = createContext<EuiThemeComputed>(
-  getComputed(EuiThemeDefault, {}, DEFAULT_COLOR_MODE)
+  getComputed(EuiThemeTensei, {}, DEFAULT_COLOR_MODE)
 );

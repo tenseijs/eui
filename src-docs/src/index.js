@@ -11,18 +11,14 @@ import { NotFoundView } from './views/not_found/not_found_view';
 import { registerTheme, ExampleContext } from './services';
 
 import Routes from './routes';
-import themeLight from './theme_light.scss';
-import themeDark from './theme_dark.scss';
-import themeAmsterdamLight from './theme_amsterdam_light.scss';
-import themeAmsterdamDark from './theme_amsterdam_dark.scss';
+import themeTenseiLight from './theme_tensei_light.scss'
+import themeTenseiDark from './theme_tensei_dark.scss'
 import { ThemeProvider } from './components/with_theme/theme_context';
 import ScrollToHash from './components/scroll_to_hash';
 import { LinkWrapper } from './views/link_wrapper';
 
-registerTheme('light', [themeLight]);
-registerTheme('dark', [themeDark]);
-registerTheme('amsterdam-light', [themeAmsterdamLight]);
-registerTheme('amsterdam-dark', [themeAmsterdamDark]);
+registerTheme('tensei-light', [themeTenseiLight])
+registerTheme('tensei-dark', [themeTenseiDark])
 
 // Set up app
 

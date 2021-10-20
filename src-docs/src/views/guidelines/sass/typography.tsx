@@ -69,11 +69,11 @@ const VariableLink = () => {
     case 'light':
     case 'dark':
       url =
-        'https://github.com/elastic/eui/blob/master/src/global_styling/variables/_typography.scss';
+        'https://github.com/tenseijs/eui/blob/master/src/global_styling/variables/_typography.scss';
       break;
     default:
       url =
-        'https://github.com/elastic/eui/blob/master/src/themes/eui-amsterdam/global_styling/variables/_typography.scss';
+        'https://github.com/tenseijs/eui/blob/master/src/themes/tensei/global_styling/variables/_typography.scss';
   }
 
   return <EuiLink href={url}>variables</EuiLink>;

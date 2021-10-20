@@ -132,7 +132,7 @@ export {
 } from './hooks';
 
 export { throttle } from './throttle';
-
+export {buildTheme} from './theme/utils'
 export {
   EuiSystemContext,
   EuiThemeContext,
@@ -142,7 +142,6 @@ export {
   withEuiTheme,
   WithEuiThemeProps,
   EuiThemeProvider,
-  buildTheme,
   computed,
   isInverseColorMode,
   getColorMode,

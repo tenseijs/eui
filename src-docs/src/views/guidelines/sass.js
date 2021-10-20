@@ -62,11 +62,11 @@ const ImportOutsideExample = () => {
       return `@import '@elastic/eui/src/themes/eui/eui_colors_dark.scss';
 @import '@elastic/eui/src/themes/eui/eui_globals.scss';`;
     case 'amsterdam-dark':
-      return `@import '@elastic/eui/src/themes/eui-amsterdam/eui_amsterdam_colors_dark.scss';
-@import '@elastic/eui/src/themes/eui-amsterdam/eui_amsterdam_globals.scss';`;
+      return `@import '@elastic/eui/src/themes/tensei/eui_tensei_colors_dark.scss';
+@import '@elastic/eui/src/themes/tensei/eui_tensei_globals.scss';`;
     default:
-      return `@import '@elastic/eui/src/themes/eui-amsterdam/eui_amsterdam_colors_light.scss';
-@import '@elastic/eui/src/themes/eui-amsterdam/eui_amsterdam_globals.scss';`;
+      return `@import '@elastic/eui/src/themes/tensei/eui_tensei_colors_light.scss';
+@import '@elastic/eui/src/themes/tensei/eui_tensei_globals.scss';`;
   }
 };
 

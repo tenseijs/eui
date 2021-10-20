@@ -15,7 +15,6 @@ export {
 export { useEuiTheme, withEuiTheme, WithEuiThemeProps } from './hooks';
 export { EuiThemeProvider } from './provider';
 export {
-  buildTheme,
   computed,
   isInverseColorMode,
   getColorMode,

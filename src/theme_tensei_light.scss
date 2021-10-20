@@ -1,8 +1,8 @@
 // This is the default theme.
-@import 'themes/eui-amsterdam/eui_amsterdam_colors_light';
+@import 'themes/tensei/eui_tensei_colors_light.scss';
 
 // Global styling
-@import 'themes/eui-amsterdam/global_styling/index';
+@import 'themes/tensei/global_styling/index';
 
 // Components
 @import 'components/index';
@@ -12,4 +12,4 @@
 
 // Component overrides
 // Comes after the component import and overrides via cascade
-@import 'themes/eui-amsterdam/overrides/index';
+@import 'themes/tensei/overrides/index';
