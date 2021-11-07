@@ -23,9 +23,8 @@ $euiBorderRadius: 4px !default;
 // Contrasty text variants
 $euiTextSubduedColor: $euiColorDarkShade;
 $euiColorPrimaryText: makeHighContrastColor($euiColorPrimary);
-$euiColorSecondaryText: makeHighContrastColor($euiColorSecondary);
 $euiColorAccentText: makeHighContrastColor($euiColorAccent);
+$euiColorSuccessText: makeHighContrastColor($euiColorSuccess);
 $euiColorWarningText: makeHighContrastColor($euiColorWarning);
 $euiColorDisabledText: makeDisabledContrastColor($euiColorDisabled);
-$euiColorSuccessText: $euiColorSecondaryText;
 $euiLinkColor: $euiColorPrimaryText;
