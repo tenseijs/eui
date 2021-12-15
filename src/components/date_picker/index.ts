@@ -6,8 +6,6 @@
  * Side Public License, v 1.
  */
 
-export * from './super_date_picker';
-
 export { EuiDatePicker, EuiDatePickerProps } from './date_picker';
 
 export {

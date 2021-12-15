@@ -75,8 +75,6 @@
   "euiCollapsibleNavGroupDarkBackgroundColor": "#131317",
   "euiCollapsibleNavGroupDarkHighContrastColor": "#2e4ff8",
   "euiContextMenuWidth": "256px",
-  "euiSuperDatePickerWidth": "480px",
-  "euiSuperDatePickerButtonWidth": "118px",
   "gutterTypes": {
     "gutterExtraSmall": "4px",
     "gutterSmall": "8px",
