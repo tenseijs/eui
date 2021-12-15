@@ -36,28 +36,28 @@
     "disabled": "#515761",
     "ghost": "#ffffff",
     "text": "#dfe5ef",
-    "success": "#19914c",
+    "success": "#7dded8",
     "warning": "#f3d371"
   },
   "euiCallOutTypes": {
     "primary": "#2346f8",
-    "success": "#008539",
+    "success": "#7dded8",
     "warning": "#f3d371",
     "danger": "#d41b44"
   },
   "euiCardSpacing": "16px",
   "euiCardBottomNodeHeight": "40px",
   "euiCardSelectButtonBorders": {
-    "text": "#008539",
+    "text": "#7dded8",
     "primary": "#2346f8",
-    "success": "#008539",
+    "success": "#7dded8",
     "danger": "#d41b44",
     "ghost": "#98a2b3"
   },
   "euiCardSelectButtonBackgrounds": {
     "text": "#25262e",
     "primary": "#0b154a",
-    "success": "#002811",
+    "success": "#264341",
     "danger": "#400814",
     "ghost": "#98a2b3"
   },
@@ -118,8 +118,7 @@
   "euiExpressionColors": {
     "subdued": "#7a7f89",
     "primary": "#5d77f8",
-    "success": "#19914c",
-    "secondary": "#19914c",
+    "success": "#7dded8",
     "warning": "#f3d371",
     "danger": "#de4e6e",
     "accent": "#f68fbe"
@@ -182,7 +181,7 @@
   "euiFilePickerTallHeight": "128px",
   "euiRangeLevelColors": {
     "primary": "#2346f8",
-    "success": "#008539",
+    "success": "#7dded8",
     "warning": "#f3d371",
     "danger": "#d41b44"
   },
@@ -212,8 +211,7 @@
     "danger": "#d41b44",
     "ghost": "#ffffff",
     "primary": "#2e4ff8",
-    "secondary": "#008539",
-    "success": "#008539",
+    "success": "#7dded8",
     "subdued": "#7a7f89",
     "text": "#dfe5ef",
     "warning": "#f3d371",
@@ -231,8 +229,7 @@
   "euiLinkColors": {
     "subdued": "#7a7f89",
     "primary": "#5d77f8",
-    "secondary": "#19914c",
-    "success": "#19914c",
+    "success": "#7dded8",
     "accent": "#f68fbe",
     "warning": "#f3d371",
     "danger": "#de4e6e",
@@ -270,8 +267,7 @@
   },
   "euiProgressColors": {
     "primary": "#2346f8",
-    "secondary": "#008539",
-    "success": "#008539",
+    "success": "#7dded8",
     "warning": "#f3d371",
     "danger": "#d41b44",
     "accent": "#f68fbe",
@@ -362,8 +358,7 @@
   "euiTextColors": {
     "default": "#dfe5ef",
     "subdued": "#7a7f89",
-    "secondary": "#008539",
-    "success": "#008539",
+    "success": "#7dded8",
     "accent": "#f68fbe",
     "warning": "#f3d371",
     "danger": "#d41b44",
@@ -374,7 +369,7 @@
   "euiToastWidth": "320px",
   "euiToastTypes": {
     "primary": "#2346f8",
-    "success": "#008539",
+    "success": "#7dded8",
     "warning": "#f3d371",
     "danger": "#d41b44"
   },
@@ -453,8 +448,7 @@
   "euiButtonTypes": {
     "primary": "#2346f8",
     "accent": "#f68fbe",
-    "secondary": "#008539",
-    "success": "#008539",
+    "success": "#7dded8",
     "warning": "#f3d371",
     "danger": "#d41b44",
     "subdued": "#7a7f89",
@@ -464,9 +458,8 @@
   "euiColorGhost": "#ffffff",
   "euiColorInk": "#000000",
   "euiColorPrimary": "#2346f8",
-  "euiColorSecondary": "#008539",
   "euiColorAccent": "#f68fbe",
-  "euiColorSuccess": "#008539",
+  "euiColorSuccess": "#7dded8",
   "euiColorWarning": "#f3d371",
   "euiColorDanger": "#d41b44",
   "euiColorEmptyShade": "#1d1e24",
@@ -483,12 +476,11 @@
   "euiTextSubduedColor": "#7a7f89",
   "euiColorDisabled": "#515761",
   "euiColorPrimaryText": "#5d77f8",
-  "euiColorSecondaryText": "#19914c",
   "euiColorAccentText": "#f68fbe",
+  "euiColorSuccessText": "#7dded8",
   "euiColorWarningText": "#f3d371",
   "euiColorDangerText": "#de4e6e",
   "euiColorDisabledText": "#515761",
-  "euiColorSuccessText": "#19914c",
   "euiLinkColor": "#5d77f8",
   "euiPaletteColorBlind": {
     "euiColorVis0": {
@@ -657,7 +649,7 @@
     "subdued": "#141519",
     "accent": "#4a2b39",
     "primary": "#0b154a",
-    "success": "#002811",
+    "success": "#264341",
     "warning": "#493f22",
     "danger": "#400814"
   },
@@ -762,6 +754,7 @@
   "euiZFlyout": 1000,
   "euiZMaskBelowHeader": 1000,
   "euiZContent": 0,
+  "euiColorSecondary": "#008539",
   "euiDatePickerCalendarWidth": "284px",
   "euiDatePickerPadding": "8px",
   "euiDatePickerGap": "4px",
@@ -779,7 +772,7 @@
   "euiRangeCompressedHeight": "32px",
   "euiStepStatusColors": {
     "default": "#2346f8",
-    "complete": "#008539",
+    "complete": "#7dded8",
     "warning": "#f3d371",
     "danger": "#d41b44"
   }

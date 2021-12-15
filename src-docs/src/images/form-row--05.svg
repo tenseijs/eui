@@ -9,27 +9,27 @@
 <rect x="76.5" y="115.5" width="770" height="147" rx="3" fill="white"/>
 <g opacity="0.6">
 <rect x="100.5" y="139.5" width="244.966" height="18" rx="3" fill="#98A2B3"/>
-<rect x="100.5" y="173.5" width="253.171" height="10" rx="3" fill="#D3DAE6"/>
-<rect x="100.5" y="191.5" width="214.172" height="10" rx="3" fill="#D3DAE6"/>
+<rect x="100.5" y="173.5" width="253.171" height="10" rx="3" fill="#C9D3DB"/>
+<rect x="100.5" y="191.5" width="214.172" height="10" rx="3" fill="#C9D3DB"/>
 </g>
 <rect opacity="0.6" x="488.5" y="147.5" width="100" height="8" rx="2" fill="#98A2B3"/>
 <rect x="489.5" y="168.5" width="334" height="38" rx="2" fill="white" stroke="#98A2B3" stroke-width="2"/>
-<rect opacity="0.5" x="488.5" y="219.5" width="120" height="6" rx="3" fill="#D3DAE6"/>
-<rect x="77" y="116" width="769" height="146" rx="2.5" stroke="#D3DAE6"/>
+<rect opacity="0.5" x="488.5" y="219.5" width="120" height="6" rx="3" fill="#C9D3DB"/>
+<rect x="77" y="116" width="769" height="146" rx="2.5" stroke="#C9D3DB"/>
 </g>
 <g filter="url(#filter2_ddd)">
 <rect x="76.5" y="286.5" width="770" height="147" rx="3" fill="white"/>
 <g opacity="0.6">
 <rect x="100.5" y="310.5" width="244.966" height="18" rx="3" fill="#98A2B3"/>
-<rect x="100.5" y="344.5" width="253.171" height="10" rx="3" fill="#D3DAE6"/>
-<rect x="100.5" y="362.5" width="214.172" height="10" rx="3" fill="#D3DAE6"/>
+<rect x="100.5" y="344.5" width="253.171" height="10" rx="3" fill="#C9D3DB"/>
+<rect x="100.5" y="362.5" width="214.172" height="10" rx="3" fill="#C9D3DB"/>
 </g>
 <rect opacity="0.6" x="488.5" y="318.5" width="100" height="8" rx="2" fill="#98A2B3"/>
 <rect x="489.5" y="339.5" width="334" height="38" rx="2" fill="white" stroke="#98A2B3" stroke-width="2"/>
-<rect opacity="0.5" x="488.5" y="390.5" width="120" height="6" rx="3" fill="#D3DAE6"/>
-<rect x="77" y="287" width="769" height="146" rx="2.5" stroke="#D3DAE6"/>
+<rect opacity="0.5" x="488.5" y="390.5" width="120" height="6" rx="3" fill="#C9D3DB"/>
+<rect x="77" y="287" width="769" height="146" rx="2.5" stroke="#C9D3DB"/>
 </g>
-<rect x="37" y="33" width="849" height="440" rx="2.5" stroke="#D3DAE6"/>
+<rect x="37" y="33" width="849" height="440" rx="2.5" stroke="#C9D3DB"/>
 </g>
 <defs>
 <filter id="filter0_ddd" x="24.5" y="26.5" width="874" height="465" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">

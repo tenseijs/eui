@@ -188,7 +188,7 @@ export const brand_text_colors: _EuiThemeBrandTextColors = {
 export const shade_colors: _EuiThemeShadeColors = {
   emptyShade: '#FFF',
   lightestShade: '#F5F7FA',
-  lightShade: '#D3DAE6',
+  lightShade: '#C9D3DB',
   mediumShade: '#98A2B3',
   darkShade: '#69707D',
   darkestShade: '#343741',

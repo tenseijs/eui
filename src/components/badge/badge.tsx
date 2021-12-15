@@ -103,7 +103,7 @@ const visColors = euiPaletteColorBlindBehindText();
 
 const colorToHexMap: { [color in IconColor]: string } = {
   // TODO - replace with variable once https://github.com/elastic/eui/issues/2731 is closed
-  default: '#d3dae6',
+  default: '#C9D3DB',
   primary: visColors[1],
   success: visColors[0],
   accent: visColors[2],

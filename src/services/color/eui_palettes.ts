@@ -234,7 +234,7 @@ export const euiPaletteGray = function (steps: number): EuiPalette {
   }
 
   return euiPalette(
-    ['white', '#d3dae6', '#98a2b3', '#69707d', '#343741'],
+    ['white', '#C9D3DB', '#98a2b3', '#69707d', '#343741'],
     steps,
     false
   );

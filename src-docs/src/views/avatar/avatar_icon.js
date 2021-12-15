@@ -46,7 +46,7 @@ export default () => {
       <EuiAvatar
         name="Null iconColor"
         iconType="managementApp"
-        color={isDarkTheme ? '#343741' : '#D3DAE6'}
+        color={isDarkTheme ? '#343741' : '#C9D3DB'}
         iconColor={null}
       />
       &emsp;
