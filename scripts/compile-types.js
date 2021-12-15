@@ -12,8 +12,6 @@ function compileTypes() {
         stdio: 'inherit'
     })
 
-    return
-
     const locationOfTypes = path.resolve(__dirname, '..', 'types/src')
     const locationOfLib = path.resolve(__dirname, '..', 'lib')
 
@@ -56,8 +54,11 @@ function compileTypes() {
 
     topFiles.forEach(file => {
         console.log(`Copying ${file}...`)
-        shell.cp(path.resolve(locationOfTypes, 'components', file), path.resolve(__dirname, '..', 'lib/components'))
+        shell.cp(path.resolve(locationOfTypes, 'components', file), path.resolve(locationOfLib, 'components'))
     })
+
+    // Copy root index.d.ts file
+    shell.cp(path.resolve(locationOfTypes, 'index.d.ts'), path.resolve(locationOfLib))
 
     // Copy services types
     console.log(`
