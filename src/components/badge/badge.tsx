@@ -24,7 +24,6 @@ import {
 } from '../../services';
 import { EuiInnerText } from '../inner_text';
 import { EuiIcon, IconColor, IconType } from '../icon';
-import { chromaValid, parseColor } from '../color_picker/utils';
 import { validateHref } from '../../services/security/href_validator';
 
 type IconSide = 'left' | 'right';
@@ -192,7 +191,7 @@ export const EuiBadge: FunctionComponent<EuiBadgeProps> = ({
       };
     }
   } catch (err) {
-    handleInvalidColor(color);
+    console.error(err)
   }
   const classes = classNames(
     'euiBadge',
@@ -366,16 +365,4 @@ function setTextColor(bgColor: string) {
     : colorInk;
 
   return textColor;
-}
-
-function handleInvalidColor(color: null | IconColor | string) {
-  const isNamedColor = (color && COLORS.includes(color)) || color === 'hollow';
-  const isValidColorString = color && chromaValid(parseColor(color) || '');
-  if (!isNamedColor && !isValidColorString) {
-    console.warn(
-      'EuiBadge expects a valid color. This can either be a three or six ' +
-        `character hex value, rgb(a) value, hsv value, hollow, or one of the following: ${COLORS}. ` +
-        `Instead got ${color}.`
-    );
-  }
 }

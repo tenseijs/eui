@@ -28,8 +28,6 @@
     "gutterExtraSmall": "4px",
     "gutterSmall": "8px"
   },
-  "euiBreadcrumbSpacing": "8px",
-  "euiBreadcrumbTruncateWidth": "160px",
   "euiButtonEmptyTypes": {
     "primary": "#5d77f8",
     "danger": "#de4e6e",
@@ -76,59 +74,9 @@
   "euiCollapsibleNavGroupLightBackgroundColor": "#141519",
   "euiCollapsibleNavGroupDarkBackgroundColor": "#131317",
   "euiCollapsibleNavGroupDarkHighContrastColor": "#2e4ff8",
-  "euiColorPickerValueRange0": "#ffffff",
-  "euiColorPickerValueRange1": "rgba(255, 255, 255, 0)",
-  "euiColorPickerSaturationRange0": "#000000",
-  "euiColorPickerSaturationRange1": "rgba(0, 0, 0, 0)",
-  "euiColorPickerIndicatorSize": "12px",
-  "euiColorPickerWidth": "152px",
-  "euiColorPaletteDisplaySizes": {
-    "sizeExtraSmall": "4px",
-    "sizeSmall": "8px",
-    "sizeMedium": "16px"
-  },
   "euiContextMenuWidth": "256px",
-  "euiControlBarBackground": "#000000",
-  "euiControlBarText": "#a9aaad",
-  "euiControlBarBorderColor": "rgba(255, 255, 255, 0.19999999999999996)",
-  "euiControlBarInitialHeight": "40px",
-  "euiControlBarMaxHeight": "calc(100vh - 80px)",
-  "euiControlBarHeights": {
-    "s": "240px",
-    "m": "480px",
-    "l": "100vh"
-  },
-  "euiDataGridPrefix": ".euiDataGrid--",
-  "euiDataGridStyles": "'bordersAll', 'bordersNone', 'bordersHorizontal', 'paddingSmall', 'paddingMedium', 'paddingLarge', 'stripes', 'rowHoverNone', 'rowHoverHighlight', 'headerShade', 'headerUnderline', 'footerShade', 'footerOverline', 'fontSizeSmall', 'fontSizeLarge', 'noControls', 'stickyFooter'",
-  "euiZDataGrid": 999,
-  "euiZHeaderBelowDataGrid": 998,
-  "euiDataGridColumnResizerWidth": "3px",
-  "euiDataGridPopoverMaxHeight": "400px",
-  "euiDataGridCellPaddingS": "4px",
-  "euiDataGridCellPaddingM": "6px",
-  "euiDataGridCellPaddingL": "8px",
-  "euiDataGridVerticalBorder": "solid 1px #24272e",
   "euiSuperDatePickerWidth": "480px",
   "euiSuperDatePickerButtonWidth": "118px",
-  "euiDragAndDropSpacing": {
-    "s": "2px",
-    "m": "4px",
-    "l": "8px"
-  },
-  "euiExpressionColors": {
-    "subdued": "#7a7f89",
-    "primary": "#5d77f8",
-    "success": "#7dded8",
-    "warning": "#f3d371",
-    "danger": "#de4e6e",
-    "accent": "#f68fbe"
-  },
-  "euiFacetGutterSizes": {
-    "gutterNone": 0,
-    "gutterSmall": "4px",
-    "gutterMedium": "8px",
-    "gutterLarge": "12px"
-  },
   "gutterTypes": {
     "gutterExtraSmall": "4px",
     "gutterSmall": "8px",
@@ -191,12 +139,6 @@
     "both": "resizeBoth",
     "none": "resizeNone"
   },
-  "euiHeaderLinksGutterSizes": {
-    "gutterXS": "4px",
-    "gutterS": "8px",
-    "gutterM": "12px",
-    "gutterL": "24px"
-  },
   "ruleMargins": {
     "marginXSmall": "8px",
     "marginSmall": "12px",
@@ -224,8 +166,6 @@
     "xLarge": "32px",
     "xxLarge": "40px"
   },
-  "euiKeyPadMenuSize": "96px",
-  "euiKeyPadMenuMarginSize": "4px",
   "euiLinkColors": {
     "subdued": "#7a7f89",
     "primary": "#5d77f8",
@@ -284,8 +224,6 @@
     "vis9": "#e7664c",
     "customColor": "currentColor"
   },
-  "euiResizableButtonTransitionSpeed": "150ms",
-  "euiResizableButtonSize": "16px",
   "euiSelectableListItemBorder": "1px solid #202128",
   "euiSelectableListItemPadding": "4px 12px",
   "euiSelectableTemplateSitewideTypes": {
@@ -331,19 +269,6 @@
     "danger": "#d41b44",
     "disabled": "#98a2b3",
     "incomplete": "#98a2b3"
-  },
-  "euiSuggestItemColors": {
-    "tint0": "#54b399",
-    "tint1": "#6092c0",
-    "tint2": "#d36086",
-    "tint3": "#9170b8",
-    "tint4": "#ca8eae",
-    "tint5": "#d6bf57",
-    "tint6": "#b9a888",
-    "tint7": "#da8b45",
-    "tint8": "#aa6556",
-    "tint9": "#e7664c",
-    "tint10": "#98a2b3"
   },
   "euiTableCellContentPadding": "8px",
   "euiTableCellContentPaddingCompressed": "4px",

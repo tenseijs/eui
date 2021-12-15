@@ -12,6 +12,8 @@ function compileTypes() {
         stdio: 'inherit'
     })
 
+    return
+
     const locationOfTypes = path.resolve(__dirname, '..', 'types/src')
     const locationOfLib = path.resolve(__dirname, '..', 'lib')
 

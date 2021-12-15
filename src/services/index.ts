@@ -62,7 +62,6 @@ export {
   euiPaletteWarm,
   euiPaletteGray,
   HSV,
-  getSteppedGradient,
   transparentize,
   tint,
   shade,

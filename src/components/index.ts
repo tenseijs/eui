@@ -18,12 +18,6 @@ export * from './avatar';
 
 export * from './badge';
 
-export * from './beacon';
-
-export * from './bottom_bar';
-
-export * from './breadcrumbs';
-
 export * from './button';
 
 export * from './call_out';
@@ -34,40 +28,20 @@ export * from './code';
 
 export * from './collapsible_nav';
 
-export * from './color_picker';
-
-export * from './combo_box';
-
-export * from './comment_list';
-
 export * from './context';
 
 export * from './context_menu';
 
-export * from './control_bar';
-
 export * from './copy';
-
-export * from './datagrid';
 
 export * from './date_picker';
 
 export * from './delay_hide';
 export * from './delay_render';
 
-export * from './description_list';
-
-export * from './drag_and_drop';
-
 export * from './empty_prompt';
 
 export * from './error_boundary';
-
-export * from './expression';
-
-export * from './filter_group';
-
-export * from './facet';
 
 export * from './flex';
 
@@ -76,8 +50,6 @@ export * from './flyout';
 export * from './focus_trap';
 
 export * from './form';
-
-export * from './header';
 
 export * from './health';
 
@@ -94,8 +66,6 @@ export * from './inner_text';
 export * from './i18n';
 
 export * from './loading';
-
-export * from './key_pad_menu';
 
 export * from './link';
 
@@ -115,8 +85,6 @@ export * from './outside_click_detector';
 
 export * from './overlay_mask';
 
-export * from './page';
-
 export * from './pagination';
 
 export * from './panel';
@@ -127,11 +95,7 @@ export * from './portal';
 
 export * from './progress';
 
-export * from './tree_view';
-
 export * from './observer/resize_observer';
-
-export * from './search_bar';
 
 export * from './selectable';
 
@@ -143,13 +107,9 @@ export * from './stat';
 
 export * from './steps';
 
-export * from './suggest';
-
 export * from './table';
 
 export * from './token';
-
-export * from './tour';
 
 export * from './basic_table';
 
@@ -166,7 +126,5 @@ export * from './toast';
 export * from './tool_tip';
 
 export * from './responsive';
-
-export * from './resizable_container';
 
 export * from './common';

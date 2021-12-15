@@ -130,30 +130,6 @@ function compileBundle() {
 	  }
   });
   console.log(chalk.green('✔ Finished test utils files'));
-
-  console.log('Building chart theme module...');
-  execSync(
-    'webpack src/themes/charts/themes.ts -o dist/eui_charts_theme.js --output-library-target="commonjs" --config=src/webpack.config.js',
-    {
-      stdio: 'inherit',
-    }
-  );
-  dtsGenerator({
-    prefix: '',
-    out: 'dist/eui_charts_theme.d.ts',
-    baseDir: path.resolve(__dirname, '..', 'src/themes/charts/'),
-    files: ['themes.ts'],
-    resolveModuleId() {
-      return '@elastic/eui/dist/eui_charts_theme';
-    },
-    resolveModuleImport(params) {
-   		if (params.importedModuleId === '../../components/common') {
-  			return '@elastic/eui/src/components/common';
-  		}
-			return null;
-	  }
-  });
-  console.log(chalk.green('✔ Finished chart theme module'));
 }
 
 compileLib();

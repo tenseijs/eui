@@ -14,11 +14,6 @@ export {
   CriteriaWithPagination,
 } from './basic_table';
 export {
-  EuiInMemoryTable,
-  EuiInMemoryTableProps,
-  Search,
-} from './in_memory_table';
-export {
   EuiTableDataType,
   EuiTableFooterProps,
   EuiTableFieldDataColumnType,
