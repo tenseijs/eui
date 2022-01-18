@@ -28,6 +28,8 @@ export * from './code';
 
 export * from './collapsible_nav';
 
+export * from './combo_box';
+
 export * from './context';
 
 export * from './context_menu';
@@ -42,6 +44,8 @@ export * from './delay_render';
 export * from './empty_prompt';
 
 export * from './error_boundary';
+
+export * from './filter_group';
 
 export * from './flex';
 

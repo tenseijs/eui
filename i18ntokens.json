@@ -272,6 +272,166 @@
     "filepath": "src/components/code/_code_block.tsx"
   },
   {
+    "token": "euiComboBoxPill.removeSelection",
+    "defString": "Remove {children} from selection in this group",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 69,
+        "column": 8
+      },
+      "end": {
+        "line": 73,
+        "column": 9
+      }
+    },
+    "filepath": "src/components/combo_box/combo_box_input/combo_box_pill.tsx"
+  },
+  {
+    "token": "euiComboBoxOptionsList.loadingOptions",
+    "defString": "Loading options",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 322,
+        "column": 12
+      },
+      "end": {
+        "line": 325,
+        "column": 14
+      }
+    },
+    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+  },
+  {
+    "token": "euiComboBoxOptionsList.delimiterMessage",
+    "defString": "Add each item separated by {delimiter}",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 335,
+        "column": 16
+      },
+      "end": {
+        "line": 339,
+        "column": 18
+      }
+    },
+    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+  },
+  {
+    "token": "euiComboBoxOptionsList.alreadyAdded",
+    "defString": "{label} has already been added",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 353,
+        "column": 16
+      },
+      "end": {
+        "line": 359,
+        "column": 18
+      }
+    },
+    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+  },
+  {
+    "token": "euiComboBoxOptionsList.createCustomOption",
+    "defString": "Add {searchValue} as a custom option",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 388,
+        "column": 20
+      },
+      "end": {
+        "line": 394,
+        "column": 22
+      }
+    },
+    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+  },
+  {
+    "token": "euiComboBoxOptionsList.noMatchingOptions",
+    "defString": "{searchValue} doesn't match any options",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 405,
+        "column": 12
+      },
+      "end": {
+        "line": 409,
+        "column": 14
+      }
+    },
+    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+  },
+  {
+    "token": "euiComboBoxOptionsList.noAvailableOptions",
+    "defString": "There aren't any options available",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 416,
+        "column": 10
+      },
+      "end": {
+        "line": 419,
+        "column": 12
+      }
+    },
+    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+  },
+  {
+    "token": "euiComboBoxOptionsList.allOptionsSelected",
+    "defString": "You've selected all available options",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 425,
+        "column": 10
+      },
+      "end": {
+        "line": 428,
+        "column": 12
+      }
+    },
+    "filepath": "src/components/combo_box/combo_box_options_list/combo_box_options_list.tsx"
+  },
+  {
+    "token": "euiFilterButton.filterBadgeActiveAriaLabel",
+    "defString": "{count} active filters",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 97,
+        "column": 27
+      },
+      "end": {
+        "line": 101,
+        "column": 3
+      }
+    },
+    "filepath": "src/components/filter_group/filter_button.tsx"
+  },
+  {
+    "token": "euiFilterButton.filterBadgeAvailableAriaLabel",
+    "defString": "{count} available filters",
+    "highlighting": "string",
+    "loc": {
+      "start": {
+        "line": 102,
+        "column": 30
+      },
+      "end": {
+        "line": 106,
+        "column": 3
+      }
+    },
+    "filepath": "src/components/filter_group/filter_button.tsx"
+  },
+  {
     "token": "euiFlyout.closeAriaLabel",
     "defString": "Close this dialog",
     "highlighting": "string",
